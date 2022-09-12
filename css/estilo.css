@@ -46,6 +46,11 @@
   font-size: 20px;
   text-decoration: none;
   color: #f1f1f1;
+  transition: all 1,5s;
+}
+
+.menu ul li a:hover{
+  margin: 50px;
 }
 
 .footer {
@@ -146,14 +151,14 @@
   display: inline-block;
 }
 .mainCategorias img {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   transition: all 1s;
 }
 
 .mainCategorias img:hover{ 
-  width: 400px;
-  height: 400px;
+  width: 600px;
+  height: 600px;
 }
 
 @media screen and (max-width: 500px) {
