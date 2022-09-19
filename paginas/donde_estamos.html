@@ -16,30 +16,54 @@
       href="https://fonts.googleapis.com/css2?family=Amiko&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/estilo.css" />
   </head>
 
-  <body class="body">
-    <header class="header">
-      <div class="header__logo">
-        <img src="../images/logo.png" alt="logo" class="header__logo" />
-        <h1>House Tech</h1>
+  <body class="body">    <header class="header">
+    <div class="header__logo">
+      <!-- 
+      <img src="images/logo.png" alt="logo" class="header__logo" -->
+      <h1>House Tech</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="../index.html"
+              >Inicio</a
+            >
+            <a class="nav-link" href="contacto.html">Contacto</a>
+            <a class="nav-link" href="donde_estamos.html">Donde Estamos</a>
+            <a class="nav-link" href="preguntas_frecuentes.html"
+              >Preguntas Frecuentes</a
+            >
+            <a class="nav-link" href="categorias.html">Categorias</a>
+          </div>
+        </div>
       </div>
-      <nav class="menu">
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-          <li><a href="donde_estamos.html">Donde Estamos</a></li>
-          <li>
-            <a href="preguntas_frecuentes.html">Preguntas Frecuentes</a>
-          </li>
-          <li><a href="categorias.html">Categorias</a></li>
-        </ul>
-      </nav>
-    </header>
+    </nav>
+  </header>
 
     <main class="main">
-      <section class="main__map"> 
+      <section class="main__map">
         <h2>Nos encontramos en Buenos Aires</h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52582.11798523692!2d-58.63635851967558!3d-34.54387276038084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcba05eb9dcabb%3A0xa2899fa246b8d742!2sGral.%20San%20Mart%C3%ADn%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1660499076657!5m2!1ses!2sar"
@@ -52,7 +76,7 @@
         ></iframe>
       </section>
     </main>
-    
+
     <footer class="footer">
       <div>
         <a href="http://www.Instagram.com" target="_blank">
@@ -73,5 +97,10 @@
         <input type="submit" value="Enviar" />
       </form>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
