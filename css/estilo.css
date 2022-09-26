@@ -1,12 +1,10 @@
-
-
 .body {
-  font-family: "Amiko", sans-serif;
-  color: #f1f1f1;
-  background-color: #e0e1dd;
-  color: #1b263b;
-  display: grid;
+  font-family: 'Fjalla One', sans-serif;
+  color: #000;
+  background-color: #eae9e9;
+  box-sizing: border-box;
   min-height: 100vh;
+  display: grid;
   grid-template-columns: auto 1fr auto;
   grid-template-rows: auto 1fr auto; 
   grid-template-areas:
@@ -25,34 +23,17 @@
 }
 
 .header {
-  background-color: #14213D ;
-  display: flex;
-  justify-content: space-between;
+  background-color: #000 ;
 }
-.header__logo a{
+
+
+.header div a{
   text-decoration: none;
-  color: #e0e1dd;
-
-}
-
-
-
-.nav-link{
-  color: #f1f1f1;
-}
-.menu ul li {
-  display: inline-block;
-}
-.menu ul li a {
-  margin: 10px;
-  list-style-type: none;
-  font-size: 20px;
-  text-decoration: none;
-  transition: all 2s;
+  color: #fff;
 }
 
 .footer{
-  background-color: #778da9;
+  background-color: #d4d7dd;
   cursor: default;
 }
 .footer h4{
@@ -66,12 +47,14 @@
 }
 .footer a{
   text-decoration: none;
-  color: #14213D;
+  color: #000;
 }
 
 .card{
   cursor: default;
+  border-color: #000;
 }
+
 .card-body a:hover{
   transform: translateY(-10%);
 }
@@ -81,33 +64,29 @@
 .index__img2:hover{
   transform: translateY(-1%);
 }
-.card{
-  min-height: max-content;
-}
-.btn{
-  background-color: blue;
-}
+
 
 .form-floating label{
-  color: #778da9;
-}
+    color: #778da9;
+  }
+
 #floatingTextarea{
   height: 15rem;
 }
 .boton{
-  background-color: #14213D;
-  color: #fff;
-  width: 20rem;
+  width: 12rem;
   height: 3rem;
   border-radius: 10px;
-  transition-duration: 0.5s;
-}
-.boton:hover{
-width: 21rem;
-height: 4rem;
 }
 
+.boton_ :hover{
+  transform: translateY(-5%);
+}
 
+.img__p{
+  width: 500px;
+  height: 2 50px;
+}
 
 @media screen and (max-width: 500px) {
   .body {
@@ -119,76 +98,6 @@ height: 4rem;
       "main main"
       "footer footer";
   }
-  .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .header__logo img {
-    margin: 20px;
-  }
-  .menu ul {
-    display: flex;
-    justify-content: center;
-  }
-
-  .menu ul li a {
-    margin: 2px;
-    font-size: 13px;
-  }
-
-  .footer {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .footer h6 {
-    display: none;
-  }
-  .main__index {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-  }
-
-  .main__div1Index img {
-    width: 400px;
-    height: 400px;
-    animation: none;
-  }
-
-  .main__div2Index img {
-    width: 400px;
-    height: 400px;
-  }
-
-  .main__div3Index img {
-    width: 400px;
-    height: 400px;
-  }
-  .main__map iframe {
-    width: 400px;
-    height: 150;
-  }
-
-  .mainCategorias {
-    color: #f1f1f1;
-    display: flex;
-    flex-direction: column;
-  }
-  .mainCategorias div {
-    display: block;
-  }
-  .mainCategorias img {
-    width: 400px;
-    height: 400px;
-  }
-  .mainCategorias h3 {
-    display: flex;
-    justify-content: center;
-  }
-}
 
 @media screen and (max-width: 768px) {
   .body {
@@ -200,73 +109,5 @@ height: 4rem;
       "main main"
       "footer footer";
   }
-  .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .header__logo img {
-    margin: 20px;
-  }
-  .menu ul {
-    display: flex;
-    justify-content: center;
-  }
-
-  .menu ul li a {
-    margin: 2px;
-    font-size: 13px;
-  }
-
-  .footer {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .footer h6 {
-    display: none;
-  }
-  .main__index {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-  }
-
-  .main__div1Index img {
-    width: 300px;
-    height: 300px;
-    animation: none;
-  }
-
-  .main__div2Index img {
-    width: 300px;
-    height: 300px;
-  }
-
-  .main__div3Index img {
-    width: 300px;
-    height: 300px;
-  }
-  .main__map iframe {
-    width: 300px;
-    height: 150;
-  }
-
-  .mainCategorias {
-    color: #f1f1f1;
-    display: flex;
-    flex-direction: column;
-  }
-  .mainCategorias div {
-    display: block;
-  }
-  .mainCategorias img {
-    width: 300px;
-    height: 300px;
-  }
-  .mainCategorias h3 {
-    display: flex;
-    justify-content: center;
-  }
+}
 }
