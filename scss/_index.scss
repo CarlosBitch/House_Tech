@@ -1,0 +1,16 @@
+
+.index__img1:hover{
+    transform: translateY(-1%);
+  }
+.index__img2:hover{
+    transform: translateY(-1%);
+  }
+
+.card{
+    cursor: default;
+    border-color: #000;
+    .card-body a:hover{
+      transform: translateY(-10%);}
+
+  }
+  

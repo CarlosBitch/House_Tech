@@ -1,0 +1,22 @@
+/* @media screen and (max-width: 500px){
+    .body {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+    }
+}
+
+  @media screen and (max-width: 768px) {
+    .body {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+    }  */

@@ -1,4 +1,4 @@
-.body {
+/* .body {
   font-family: 'Fjalla One', sans-serif;
   color: #000;
   background-color: #eae9e9;
@@ -24,15 +24,15 @@
 
 .header {
   background-color: #000 ;
-}
+} 
 
 
 .header div a{
   text-decoration: none;
   color: #fff;
-}
+} */
 
-.footer{
+/* .footer{
   background-color: #d4d7dd;
   cursor: default;
 }
@@ -48,9 +48,9 @@
 .footer a{
   text-decoration: none;
   color: #000;
-}
+} */
 
-.card{
+/* .card{
   cursor: default;
   border-color: #000;
 }
@@ -83,12 +83,7 @@
   transform: translateY(-5%);
 }
 
-.img__p{
-  width: 500px;
-  height: 2 50px;
-}
-
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .body {
     display: grid;
     grid-template-columns: 1fr;
@@ -111,3 +106,4 @@
   }
 }
 }
+ */
