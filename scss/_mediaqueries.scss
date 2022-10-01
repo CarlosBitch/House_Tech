@@ -1,15 +1,4 @@
-/* @media screen and (max-width: 500px){
-    .body {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr;
-      grid-template-areas:
-        "header header"
-        "main main"
-        "footer footer";
-    }
-}
-
+/* 
   @media screen and (max-width: 768px) {
     .body {
       display: grid;
@@ -20,3 +9,73 @@
         "main main"
         "footer footer";
     }  */
+/*  */
+
+    @media only screen and (max-width: 500px){
+      .navbar-toggler{
+      background-color: #fff;
+      }
+      .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+          .index__img{
+            display: flex;
+            flex-direction: column;
+            align-items: center;}
+              .index__img1{
+                width: 29rem;
+                height: 29rem;}
+              .index__img2{
+                width: 29rem;
+                height: 29rem;}
+        }
+      .formulario{
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .form-floating{
+        width: 15rem;
+      }
+
+      .main iframe{
+        width: 28rem;
+        height: 30rem;
+      }
+      .preg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+      }
+      .preguntas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+      }
+      .main .preguntas p{
+        font-size: 1.5rem;
+      }
+      .preg__img{
+        display: none;
+        width: 80rem;
+        height: 10rem;
+      }
+      .preg div{
+        display: block;
+      }
+      .parrafo{
+        float: left;
+      }
+      
+}
+
+  @media only screen and (max-width: 768px){
+    .navbar-toggler{
+    background-color: #fff;
+    }
+}
