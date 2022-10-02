@@ -3,3 +3,14 @@ $fondoFooter: #d4d7dd;
 $fondoMain: #eae9e9;
 $colorFont: #000;
 $colorMenu: #fff;
+
+
+@mixin sizes( $ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+$estilos:(
+    color:#000,
+    decoracion: none
+    )

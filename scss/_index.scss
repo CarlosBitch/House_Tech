@@ -3,8 +3,7 @@
     transform: translateY(-1%);
   }
 .index__img2:hover{
-    transform: translateY(-1%);
-  }
+    @extend .index__img1;}
 
 .card{
     cursor: default;

@@ -18,10 +18,7 @@
     text-decoration: none;
     color: #000; }
 
-.index__img1:hover {
-  transform: translateY(-1%); }
-
-.index__img2:hover {
+.index__img1:hover, .index__img2:hover {
   transform: translateY(-1%); }
 
 .card {
@@ -71,13 +68,13 @@
         width: 12rem; }
       .main .formulario .floatingInput {
         width: 12rem; }
-      .main .formulario .preg {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 1.5rem; }
-        .main .formulario .preg .preg__img {
-          display: none; } }
+    .main .preg {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.5rem; }
+      .main .preg .preg__img {
+        display: none; } }
 
 @media only screen and (max-width: 768px) {
   .navbar-toggler {
