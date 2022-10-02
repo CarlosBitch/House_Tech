@@ -57,9 +57,8 @@
     .main .index__img {
       display: none; }
     .main .iframe {
-      width: 25rem;
-      height: 20rem;
-      margin-bottom: 5rem; }
+      width: 20rem;
+      height: 20rem; }
     .main iframe {
       margin-bottom: 1rem;
       height: 20rem; }
@@ -68,17 +67,17 @@
       display: flex;
       justify-content: center;
       align-items: center; }
-    .main .form-floating {
-      width: 12rem; }
-    .main .floatingInput {
-      width: 12rem; }
-    .main .preg {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-size: 1.5rem; }
-      .main .preg .preg__img {
-        display: none; } }
+      .main .formulario .form-floating {
+        width: 12rem; }
+      .main .formulario .floatingInput {
+        width: 12rem; }
+      .main .formulario .preg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5rem; }
+        .main .formulario .preg .preg__img {
+          display: none; } }
 
 @media only screen and (max-width: 768px) {
   .navbar-toggler {
