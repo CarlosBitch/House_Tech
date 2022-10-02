@@ -1,17 +1,4 @@
-/* 
-  @media screen and (max-width: 768px) {
-    .body {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr;
-      grid-template-areas:
-        "header header"
-        "main main"
-        "footer footer";
-    }  */
-/*  */
-
-    @media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px){
       .navbar-toggler{
       background-color: #fff;
       }
@@ -20,25 +7,18 @@
         flex-direction: column;
         align-items: center;
           .index__img{
-            display: flex;
-            flex-direction: column;
-            align-items: center;}
-              .index__img1{
-                width: 29rem;
-                height: 29rem;}
-              .index__img2{
-                width: 29rem;
-                height: 29rem;}
+            display: none;
         }
+      }
       .formulario{
-        width: 20rem;
+        width: 60rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
       }
       .form-floating{
-        width: 15rem;
+        width: 30rem;
       }
 
       .main iframe{
@@ -62,17 +42,12 @@
       }
       .preg__img{
         display: none;
-        width: 80rem;
-        height: 10rem;
       }
       .preg div{
         display: block;
       }
-      .parrafo{
-        float: left;
-      }
-      
-}
+    }
+
 
   @media only screen and (max-width: 768px){
     .navbar-toggler{

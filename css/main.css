@@ -47,18 +47,6 @@
 .preguntas p {
   font-size: 2rem; }
 
-/* 
-  @media screen and (max-width: 768px) {
-    .body {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr;
-      grid-template-areas:
-        "header header"
-        "main main"
-        "footer footer";
-    }  */
-/*  */
 @media only screen and (max-width: 700px) {
   .navbar-toggler {
     background-color: #fff; }
@@ -67,23 +55,15 @@
     flex-direction: column;
     align-items: center; }
     .main .index__img {
-      display: flex;
-      flex-direction: column;
-      align-items: center; }
-    .main .index__img1 {
-      width: 29rem;
-      height: 29rem; }
-    .main .index__img2 {
-      width: 29rem;
-      height: 29rem; }
+      display: none; }
   .formulario {
-    width: 20rem;
+    width: 60rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
   .form-floating {
-    width: 15rem; }
+    width: 30rem; }
   .main iframe {
     width: 28rem;
     height: 30rem; }
@@ -98,13 +78,9 @@
   .main .preguntas p {
     font-size: 1.5rem; }
   .preg__img {
-    display: none;
-    width: 80rem;
-    height: 10rem; }
+    display: none; }
   .preg div {
-    display: block; }
-  .parrafo {
-    float: left; } }
+    display: block; } }
 
 @media only screen and (max-width: 768px) {
   .navbar-toggler {
