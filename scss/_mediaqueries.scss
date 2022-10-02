@@ -10,26 +10,35 @@
             display: none;
           }
           .iframe{
-            width: 35rem;
-      }
+            width: 30rem;
+            height: 20rem;
+            margin-bottom: 2rem;
       }
       .formulario{
-        width: 40rem;
+        width: 24rem;
         display: flex;
         justify-content: center;
         align-items: center;
-          .form-floating{
-            width: 20rem;
-          }
       }
-      .preg{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 1.5rem;
-          .preg__img{
-            display: none;}
-    }
+
+          .form-floating{
+            width: 12rem;
+
+          }
+            .floatingInput{
+              width: 12rem;
+
+          }
+
+        .preg{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-size: 1.5rem;
+            .preg__img{
+              display: none;}
+      }
+      }
   }
 
 
