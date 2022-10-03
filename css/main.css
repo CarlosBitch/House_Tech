@@ -4,6 +4,11 @@
     text-decoration: none;
     color: #fff; }
 
+.nav-link:hover, .titulo:hover {
+  transition: all .5s;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 12px #fff, 0 0 15px #fff; }
+
 .footer {
   background-color: #d4d7dd;
   cursor: default; }
@@ -19,7 +24,8 @@
     color: #000; }
 
 .index__img1:hover, .index__img2:hover {
-  transform: translateY(-1%); }
+  transform: translateY(-1%);
+  transition: all 1s; }
 
 .card {
   cursor: default;

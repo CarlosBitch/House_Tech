@@ -1,6 +1,9 @@
 
+
+
 .index__img1:hover{
     transform: translateY(-1%);
+    transition: all 1s;
   }
 .index__img2:hover{
     @extend .index__img1;}
@@ -11,5 +14,5 @@
     .card-body a:hover{
       transform: translateY(-10%);}
 
-  }
+  } 
   
